@@ -1,0 +1,35 @@
+/* Malalaki at malinaw na titik + health theme + background na logo ng Barangay Quirino */
+html{font-size:18px}
+body{
+ color:#10202e;font-weight:500;line-height:1.5;
+ background-color:#e9f6f0;
+ background-image:linear-gradient(rgba(255,255,255,.80),rgba(255,255,255,.80)),url('bg.jpg');
+ background-repeat:no-repeat,no-repeat;background-position:center,center;
+ background-size:cover,contain;background-attachment:fixed,fixed;
+}
+.navbar-health{background:linear-gradient(90deg,#0b6e4f,#13a07d);box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.navbar-health .navbar-brand{color:#fff;font-weight:800;line-height:1.1;font-size:1.25rem}
+.navbar-health .navbar-brand small{font-weight:600;font-size:.85rem;letter-spacing:.08em}
+.navbar-health .nav-link{color:#fff!important;font-size:1.05rem;font-weight:600;padding:.6rem .85rem}
+.navbar-health .nav-link:hover{background:rgba(255,255,255,.18);border-radius:10px}
+.navbar-brand img{background:#fff;border-radius:50%;padding:2px}
+h4{font-weight:800;color:#0b6e4f;font-size:1.7rem;margin-bottom:1rem}
+h6{font-weight:700;color:#0b6e4f;font-size:1.1rem;margin-top:1rem}
+.card{border:0;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.14);background:rgba(255,255,255,.97)}
+.card-header{font-weight:700;font-size:1.15rem;background:#dff3ea;border-bottom:3px solid #13a07d;border-radius:16px 16px 0 0!important}
+.table{font-size:1.05rem;background:#fff;--bs-table-bg:#fff}
+.table th{color:#0b6e4f}
+.table-sm>:not(caption)>*>*{padding:.6rem .65rem}
+.btn{font-weight:600;font-size:1.05rem;border-radius:10px}
+.btn-sm{font-size:1rem;padding:.4rem .85rem}
+.btn-success{background:#0f9170;border-color:#0f9170}.btn-success:hover{background:#0b6e4f;border-color:#0b6e4f}
+.form-control,.form-select{font-size:1.05rem;padding:.6rem .8rem;border:2px solid #b7d3c8;border-radius:10px;color:#10202e}
+.form-control-sm,.form-select-sm{font-size:1rem;padding:.4rem .6rem}
+.form-control:focus,.form-select:focus{border-color:#13a07d;box-shadow:0 0 0 .2rem rgba(19,160,125,.25)}
+.form-label{font-weight:700}
+.form-text,small,.small{font-size:.95rem}
+.text-muted{color:#44525d!important}
+.badge{font-size:.85rem;padding:.45em .7em}
+.alert{font-size:1.05rem;border-radius:12px}
+a{color:#07638f}
+footer{font-size:.95rem}
